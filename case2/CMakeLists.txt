@@ -11,5 +11,5 @@ add_executable(${PROJ_NAME} ${PROJECT_SOURCE_DIR}/src/server/server.cpp)
 
 
 install(TARGETS ${PROJ_NAME} 
-	DESTINATION "${${PROJ_NAME}_PATH_INSTALL}/lib${CMAKE_BUILD_TYPE}/")
+	DESTINATION "${${PROJ_NAME}_PATH_INSTALL}/lib/${CMAKE_BUILD_TYPE}/")
 
